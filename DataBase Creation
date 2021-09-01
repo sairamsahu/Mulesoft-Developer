@@ -1,0 +1,19 @@
+create database bookMyshow;
+
+use bookMyShow;
+
+create table movies(
+Id int NOT NULL AUTO_INCREMENT primary key,
+movieName varchar(20),
+Actor varchar(20),
+Actress varchar(20),
+Director varchar(20),
+YearOfRelease int
+);
+
+insert into movies values(1,"Thammudu","pavan Kalyan","Preeti Jhangiani","P A Arun Prasad",1999);
+insert into movies values(2,"Kushi","pavan Kalyan","Bhumika Chawla","S JSuryah",2001);
+insert into movies values(3,"Jalsa","pavan Kalyan","Ileana","Trivikram",2008);
+insert into movies values(4,"Bahubali-1","prabhas","Anushka","Rajamouli",2015);
+insert into movies values(5,"Bahubali-2","prabhas","Anushka","Rajamouli",2017);
+
